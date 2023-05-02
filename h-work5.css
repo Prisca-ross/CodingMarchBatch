@@ -1,0 +1,680 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    background-image: url(sofa1.avif);
+    background-size: 80%;
+    background-repeat: round;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.ponec {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.home {
+    list-style-type: none;
+    margin-left: 550px;
+}
+
+.lihome {
+    display: inline;
+    position: relative;
+    font-size: 14px;
+    bottom: 10px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+
+.nav{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.nav:hover {
+    color: rgb(204, 134, 62);
+    text-decoration: 2px solid underline;
+    font-size: 16px;
+}
+
+
+.button {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.button a {
+    font-family: ariral;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.button a:hover {
+    font-weight: 900;
+    font-size: 18px;
+    color: rgb(255, 147, 40);
+}
+
+.writeup {
+    font-family: verdana;
+    font-size: 60px;
+    font-weight: 900;
+    width: 900px;
+    margin-left: 20%;
+    margin-right: 25%;
+    /* padding-top: 80px; */
+    margin-top: 100px;
+}
+
+section {
+    background-color: black;
+    color: white;
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1 {
+    font-weight: 700;
+    width: 150px;
+    position: relative;
+    top: 30px;
+}
+
+.range {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.description {
+    width: 250px;
+}
+
+.description a:hover {
+    color: powderblue;
+    font-family: lucida sans;
+    font-weight: 900;
+}
+
+.readmore {
+    color: white;
+    text-decoration: none;
+}
+
+.best {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.ul {
+    list-style-type: none;
+    background-color: rgb(221, 230, 239);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    width: 500px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: -15px;
+    border-radius: 15px;
+}
+
+.lilorem {
+    display: inline;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin-top: -30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(201, 219, 238);
+}
+
+.lorem {
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    align-content: center;
+}
+
+.lorem:hover {
+    color: black;
+    font-size: 17px;
+    text-decoration: 2px solid underline;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pics {
+    width: 330px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid gold;
+}
+
+.pics:hover {
+    transform: scale(1.1);
+}
+
+.chair {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 900;
+    position: relative;
+    top: -70px;
+    margin-left: 10px;
+}
+
+.amount {
+    font-weight: 900;
+    position: relative;
+    bottom: 80px;
+    color: rgb(201, 175, 10);
+    margin-left: 10px;
+}
+
+.our {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+.service {
+    width: 300px;
+}
+
+label {
+    font-weight: 800;
+}
+
+.btn {
+    background-color: rgb(5, 5, 61);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.btn:hover {
+    font-size: 14px;
+    box-shadow: 2px 2px gold;
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(221, 230, 239);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+    position: relative;
+    padding: 10px;
+}
+
+.value {
+    margin-right: 200px;
+    margin-top: 30px;
+    
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+#features {
+    position: relative;
+    bottom: 20px;
+    
+}
+
+#features:hover {
+    transform: scale(1.2);
+}
+
+#strategies {
+    left: 20px;
+    top: 50px;
+}
+
+#strategies:hover {
+    transform: scale(1.2);
+}
+
+#tools {
+    top: 130px;
+    right: 450px;
+}
+
+#tools:hover {
+    transform: scale(1.2);
+}
+
+#review {
+    right: 430px;
+    top: 200px;
+
+}
+
+#review:hover {
+    transform: scale(1.2);
+}
+
+.xperience {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    width: 350px;
+    margin-bottom: -10px;
+}
+
+.lorem15 {
+    width: 400px;
+}
+
+.flex {
+    margin-top: 150px;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.years {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#years {
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+footer {
+    background-color: rgb(201, 219, 238);
+    height: 500px;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.couch {
+    width: 700px;
+    margin-top: 40px;
+    border: 2px solid black;
+    position: absolute;
+    right: 400px;
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width:800px) {
+    
+    header {
+       width: 100%;
+       height: 300px;
+       background-image: url(sofa1.avif);
+       background-size: 100%;
+       background-repeat: round;
+       color: white;
+    }
+
+    .ponec {
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .home {
+        list-style-type: none;
+        margin-left: 0px;
+    }
+    
+    .lihome {
+        display: inline;
+        position: relative;
+        font-size: 10px;
+        bottom: 10px;
+        margin-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    
+.nav{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.nav:hover {
+    color: rgb(204, 134, 62);
+    text-decoration: 2px solid underline;
+    font-size: 12px;
+}
+
+
+.button {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.button a {
+    font-family: arial;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.button a:hover {
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(255, 147, 40);
+}
+
+.writeup {
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    width: 500px;
+    margin-left: 10%;
+    margin-right: 25%;
+    /* padding-top: 80px; */
+    margin-top: 10px;
+}
+
+
+section {
+    background-color: black;
+    color: white;
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 700;
+    width: 50px;
+    position: relative;
+    top: 10px;
+}
+
+.range {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 10px;
+    width: 100px;
+}
+
+.description a:hover {
+    color: powderblue;
+    font-family: lucida sans;
+    font-weight: 900;
+}
+
+.readmore {
+    color: white;
+    text-decoration: none;
+}
+
+.best {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.ul {
+    list-style-type: none;
+    background-color: rgb(221, 230, 239);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 0;
+    width: 400px;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: -15px;
+    border-radius: 15px;
+}
+
+.lilorem {
+    display: inline;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin-top: -30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(201, 219, 238);
+}
+
+.lorem {
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    align-content: center;
+}
+
+.lorem:hover {
+    color: black;
+    font-size: 16px;
+    text-decoration: 2px solid underline;
+}
+
+.image {
+    display: block;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pics {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid gold;
+}
+
+
+.chair {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 900;
+    position: relative;
+    top: -70px;
+    margin-left: 10px;
+}
+
+.amount {
+    font-weight: 900;
+    position: relative;
+    bottom: 80px;
+    color: rgb(201, 175, 10);
+    margin-left: 10px;
+}
+
+.our {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    margin-bottom: -10px;
+}
+
+.service {
+    width: 200px;
+}
+
+label {
+    font-weight: 800;
+}
+
+.btn {
+    background-color: rgb(5, 5, 61);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.btn:hover {
+    font-size: 14px;
+    box-shadow: 2px 2px gold;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(221, 230, 239);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+    position: relative;
+    padding: 10px;
+}
+
+.value {
+    margin-right: 200px;
+    margin-top: 30px;
+    
+}
+
+.flexbox {
+    display: block;
+    justify-content: center;
+}
+
+#features {
+    position: relative;
+    left: 100px;
+    
+}
+
+#strategies {
+    left: 100px;
+}
+
+#tools {
+    /* top: 130px; */
+    /* right: 400px; */
+    left: 100px;
+}
+
+#review {
+    /* right: 430px; */
+    /* top: 200px; */
+    left: 100px;
+}
+
+.xperience {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    width: 150px;
+    margin-bottom: -10px;
+}
+
+.lorem15 {
+    font-size: 12px;
+    width: 100px;
+}
+
+.flex {
+    margin-top: 250px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.years {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#years {
+    font-size: 15px;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+footer {
+    background-color: rgb(201, 219, 238);
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.couch {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+    left: 100px;
+}
+    
+}
